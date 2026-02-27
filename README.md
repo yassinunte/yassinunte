@@ -22,8 +22,4 @@ I am a 2nd year student at Xavier university, pursuing BSIT. My journey involves
 - Took on some roblox game projects
 - Completed a few Java game projects
 
-## 🌟 Fun Fact
-I love getting into competitive sports such as tennis and football
-
-
 Thanks :p!
