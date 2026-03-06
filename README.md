@@ -13,13 +13,13 @@ I am a 2nd year student at Xavier University, pursuing BSIT. My journey involves
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,git,github,vscode)](https://skillicons.dev)
 
 ## 🌱 Currently Exploring
-- 🚀 Learning Full Stack Web Development
-- 🚀 Learning advanced Java
-- 🚀 Learning to use Git
+- Learning Full Stack Web Development
+- Learning advanced Java
+- Learning to use Git
 
 ## 🏆 Achievements
-- 🌟 Took on some Roblox game projects
-- 🌟 Completed a few Java game projects
+- Took on some Roblox game projects
+- Completed a few Java game projects
 
 ## Fun fact
 - I love getting into competitive sports such as tennis and football.
