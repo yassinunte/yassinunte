@@ -1,0 +1,132 @@
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --text:#111827;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --accent:#7c3aed;
+  --accent2:#ff3b7a;
+  --shadow:0 14px 30px rgba(0,0,0,.08);
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  line-height:1.6;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* HEADER */
+.site-header{
+  background:white;
+  border-bottom:1px solid var(--border);
+}
+.header-inner{
+  max-width:1100px;
+  margin:auto;
+  padding:18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.logo{
+  width:50px;
+  height:50px;
+  border-radius:12px;
+  background-image:url("https://cdn-useast1.kapwing.com/static/templates/crying-cat-meme-template-full-719a53dc.webp");
+  background-size:cover;
+}
+.site-title{ margin:0; font-size:1.4rem; }
+.site-tagline{ margin:0; font-size:.95rem; color:var(--muted); }
+.site-nav ul{ list-style:none; display:flex; gap:16px; padding:0; margin:0; }
+.site-nav a{ text-decoration:none; font-weight:700; color:var(--text); }
+.site-nav a:hover{ color:var(--accent); }
+
+/* MAIN */
+.container{ max-width:1100px; margin:auto; padding:24px 16px; }
+.layout{ display:flex; gap:20px; }
+.content{ flex:1; }
+.section-title{ margin-bottom:16px; }
+
+/* PROJECT CARDS */
+.post{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:18px;
+  box-shadow:var(--shadow);
+}
+
+/* combinator examples */
+.post-featured + h2 { color: var(--accent2); } /* adjacent sibling */
+.post-grid .post:nth-child(odd) { border-left: 4px solid var(--accent); } /* pseudo-class */
+.widget > h2 { text-transform: uppercase; } /* child combinator */
+.sidebar a { color: var(--accent); } /* descendant combinator */
+.sidebar a:hover { text-decoration: underline; }
+
+.post-featured{ margin-bottom:20px; border:1px solid rgba(124,58,237,.3); }
+.post-grid{ display:flex; flex-wrap:wrap; gap:16px; }
+.post-grid .post{ flex:1 1 280px; }
+.post h3{ margin-top:0; }
+.post p{ color:#374151; }
+.post-foot{ display:flex; align-items:center; gap:10px; margin-top:10px; }
+.badge{
+  font-size:.8rem;
+  padding:4px 10px;
+  border-radius:999px;
+  background:#fafafa;
+  border:1px solid var(--border);
+  font-weight:600;
+}
+.link{ margin-left:auto; text-decoration:none; font-weight:800; color:var(--accent2); }
+.link:hover{ text-decoration:underline; }
+
+/* SIDEBAR */
+.sidebar{ width:300px; display:flex; flex-direction:column; gap:16px; }
+.widget{ background:white; border:1px solid var(--border); border-radius:16px; padding:16px; box-shadow:var(--shadow); }
+.list{ padding-left:18px; }
+.list li{ margin-bottom:6px; }
+
+/* SKILL TAGS */
+.topics{ display:flex; flex-wrap:wrap; gap:10px; }
+.pill{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#fafafa;
+  border:1px solid var(--border);
+  font-size:.85rem;
+}
+
+/* FOOTER */
+.site-footer{
+  margin-top:30px;
+  background:white;
+  border-top:1px solid var(--border);
+}
+.footer-inner{
+  max-width:1100px;
+  margin:auto;
+  padding:16px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  color:var(--muted);
+}
+.footer-links{ list-style:none; padding:0; margin:0; display:flex; gap:12px; }
+.footer-links a{ text-decoration:none; color:var(--muted); }
+.footer-links a:hover{ text-decoration:underline; }
+
+/* RESPONSIVE */
+@media(max-width:860px){
+  .layout{ flex-direction:column; }
+  .sidebar{ width:100%; }
+}
