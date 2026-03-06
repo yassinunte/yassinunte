@@ -10,7 +10,7 @@ I am a 2nd year student at Xavier University, pursuing BSIT. My journey involves
 - 📫 How to reach me: 20240031241@myxu.edu.ph
 
 ## 💻 Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,git,github,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,lua,html,mysql,github,vscode)](https://skillicons.dev)
 
 ## 🌱 Currently Exploring
 - Learning Full Stack Web Development
